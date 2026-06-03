@@ -100,7 +100,7 @@ Palpites @endsection
 										<td>
 											{{$jogo['dt_jogo']}} {{$jogo['hr_jogo']}}</td>
 										<td>{{ $jogo['ds_ranking'] }}</td>										
-										<td><img src="{{ asset('images/brasoes') }}/{{$jogo['ds_icone1']}}" />
+										<td><img src="{{ asset('images/bandeiras_novas') }}/{{$jogo['ds_icone1']}}" width="50" height="40" />
 											{{ $jogo['ds_nome_selecao1'] }}
 											@if ($jogo['nr_pontos_handcap1'] > $jogo['nr_pontos_handcap2'])
 											<span class="label label-sm label-inverse">
@@ -118,7 +118,7 @@ Palpites @endsection
 										<td><input type="text" id="placar2_{{$jogo['id_jogo']}}"
 											name="placar2_{{$jogo['id_jogo']}}" class="input-mini" value="{{$jogo['qt_aposta_selecao2']}}" /></td>
 										<td>
-										<img src="{{ asset('images/brasoes') }}/{{$jogo['ds_icone2']}}" />
+										<img src="{{ asset('images/bandeiras_novas') }}/{{$jogo['ds_icone2']}}" width="50" height="40" />
 										{{ $jogo['ds_nome_selecao2'] }}
 										@if ($jogo['nr_pontos_handcap2'] > $jogo['nr_pontos_handcap1'])
 										<span class="label label-sm label-inverse">

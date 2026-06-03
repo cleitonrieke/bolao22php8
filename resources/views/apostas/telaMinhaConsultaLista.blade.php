@@ -158,7 +158,7 @@
 											@endif
 											</td>
 										<td>{{ $jogo['ds_ranking'] }}</td>										
-										<td><img src="{{ asset('images/brasoes') }}/{{$jogo['ds_icone1']}}" />
+										<td><img src="{{ asset('images/bandeiras_novas') }}/{{$jogo['ds_icone1']}}" width="50" height="40" />
 											<span class="{{$jogo['class_selecao1']}}">											
 											{{ $jogo['ds_nome_selecao1'] }}											
 											</span>												
@@ -187,14 +187,14 @@
 										</span>
 										</td>
 										<td>
-										<img src="{{ asset('images/brasoes') }}/{{$jogo['ds_icone2']}}" />
+										<img src="{{ asset('images/bandeiras_novas') }}/{{$jogo['ds_icone2']}}" width="50" height="40" />
 										<span class="{{$jogo['class_selecao2']}}">
 										{{ $jogo['ds_nome_selecao2'] }}
 										</span>										
 										</td>
 										<td>
 										@if ($jogo['id_penal'] && $jogo['id_selecao_penal'] > 0)  
-										<img src="{{ asset('images/brasoes') }}/{{$jogo['ds_icone_penal']}}" /><span class="{{$jogo['class_penal']}}">{{$jogo['ds_selecao_penal']}}</span>
+										<img src="{{ asset('images/bandeiras_novas') }}/{{$jogo['ds_icone_penal']}}" width="50" height="40" /><span class="{{$jogo['class_penal']}}">{{$jogo['ds_selecao_penal']}}</span>
 										@if ($jogo['id_mostra_penal'])
 										&nbsp;
 										<label class="btn btn-xs btn-yellow">{{$jogo['ds_jogo_selecao_penal']}}</label>

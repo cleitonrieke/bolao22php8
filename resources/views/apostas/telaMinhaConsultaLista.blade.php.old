@@ -109,14 +109,14 @@
 											$jogo['ds_grupo'] }}
 											@endif
 									    </td>
-										<td><img src="{{ asset('images/bandeiras') }}/{{$jogo['ds_icone1']}}" />
+										<td><img src="{{ asset('images/bandeiras_novas') }}/{{$jogo['ds_icone1']}}" />
 											{{ $jogo['ds_nome_selecao1'] }}												
 										</td>
 										<td class="center">{{$jogo['qt_aposta_selecao1']}}</td>
 										<td class="center">X</td>
 										<td class="center">{{$jogo['qt_aposta_selecao2']}}</td>
 										<td>
-										<img src="{{ asset('images/bandeiras') }}/{{$jogo['ds_icone2']}}" />
+										<img src="{{ asset('images/bandeiras_novas') }}/{{$jogo['ds_icone2']}}" />
 										{{ $jogo['ds_nome_selecao2'] }}										
 										</td>
 										<td>{{ $jogo['ds_estadio'] }}</td>										

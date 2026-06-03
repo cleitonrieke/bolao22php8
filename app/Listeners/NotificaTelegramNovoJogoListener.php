@@ -4,6 +4,7 @@ namespace App\Listeners;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Telegram;
+use Telegram\Bot\Exceptions\TelegramResponseException;
 use App\Events\NovoJogoEvent;
 use App\Models\Selecao;
 
@@ -27,13 +28,25 @@ class NotificaTelegramNovoJogoListener implements ShouldQueue
      */
     public function handle(NovoJogoEvent $event)
     {
-        $selecao1 = Selecao::where('id',$event->jogo->id_selecao1)->first();
-        $selecao2 = Selecao::where('id',$event->jogo->id_selecao2)->first();
+        $chatId = env('TELEGRAM_CHAT_ID');
         
-        Telegram::sendMessage([
-            'chat_id' => env('TELEGRAM_CHAT_ID', ''),
-            'parse_mode' => 'HTML',
-            'text' => 'Jogo '.$selecao1->ds_nome.' X '.$selecao2->ds_nome.' incluido!'
-        ]);
+        // Validate that chat ID is configured
+        if (!$chatId) {
+            \Log::warning('TELEGRAM_CHAT_ID is not configured');
+            return;
+        }
+        
+        try {
+            $selecao1 = Selecao::where('id',$event->jogo->id_selecao1)->first();
+            $selecao2 = Selecao::where('id',$event->jogo->id_selecao2)->first();
+            
+            Telegram::sendMessage([
+                'chat_id' => $chatId,
+                'parse_mode' => 'HTML',
+                'text' => 'Jogo '.$selecao1->ds_nome.' X '.$selecao2->ds_nome.' incluido!'
+            ]);
+        } catch (TelegramResponseException $e) {
+            \Log::error('Telegram error: ' . $e->getMessage());
+        }
     }
 }

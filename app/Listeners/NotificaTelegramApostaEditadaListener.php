@@ -4,6 +4,7 @@ namespace App\Listeners;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Telegram;
+use Telegram\Bot\Exceptions\TelegramResponseException;
 use App\Events\ApostaAtualizadaEvent;
 
 class NotificaTelegramApostaEditadaListener implements ShouldQueue
@@ -26,14 +27,25 @@ class NotificaTelegramApostaEditadaListener implements ShouldQueue
      */
     public function handle(ApostaAtualizadaEvent $event)
     {   
-        $qt_apostas = count($event->tb_apostas);
-        $usuario = $event->user;
+        $chatId = env('TELEGRAM_CHAT_ID');
         
-        Telegram::sendMessage([
-            'chat_id' => env('TELEGRAM_CHAT_ID', ''),
-            'parse_mode' => 'HTML',
-            'text' => $usuario->name.' acaba de atualizar '.$qt_apostas.' palpite(s)!'
-        ]);
+        // Validate that chat ID is configured
+        if (!$chatId) {
+            \Log::warning('TELEGRAM_CHAT_ID is not configured');
+            return;
+        }
         
+        try {
+            $qt_apostas = count($event->tb_apostas);
+            $usuario = $event->user;
+            
+            Telegram::sendMessage([
+                'chat_id' => $chatId,
+                'parse_mode' => 'HTML',
+                'text' => $usuario->name.' acaba de atualizar '.$qt_apostas.' palpite(s)!'
+            ]);
+        } catch (TelegramResponseException $e) {
+            \Log::error('Telegram error: ' . $e->getMessage());
+        }
     }
 }

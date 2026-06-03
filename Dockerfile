@@ -6,6 +6,9 @@ COPY composer.lock composer.json /var/www/
 # Set working directory
 WORKDIR /var/www
 
+# Create www user and group
+RUN addgroup -g 1000 www && adduser -D -u 1000 -G www www
+
 # install necessary alpine packages
 RUN apk update && apk add --no-cache \
     zip \
@@ -18,23 +21,22 @@ RUN apk update && apk add --no-cache \
 
 # configure packages
 RUN docker-php-ext-configure gd --with-freetype --with-jpeg
-    
+
 # compile native PHP packages
 RUN docker-php-ext-install \
     gd \
     pcntl \
     bcmath \
     mysqli \
-    pdo_mysql
-    
-
+    pdo_mysql \
+    zip
 
 # install additional packages from PECL
-RUN pecl install zip && docker-php-ext-enable zip \
-    && pecl install igbinary && docker-php-ext-enable igbinary \
-    && yes | pecl install redis && docker-php-ext-enable redis \
-    && pecl install pcov \
-    && docker-php-ext-enable pcov
+RUN pecl install igbinary && docker-php-ext-enable igbinary
+
+RUN pecl install redis && docker-php-ext-enable redis
+
+RUN pecl install pcov && docker-php-ext-enable pcov
 
 
 # Install composer
@@ -43,12 +45,18 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 # Copy existing application directory contents
 COPY . /var/www
 
+# Install PHP dependencies
+RUN composer install --no-interaction --optimize-autoloader
+
 COPY ./start.sh /usr/local/bin/start
 
-RUN chmod u+x /usr/local/bin/start
+RUN dos2unix /usr/local/bin/start && chmod u+x /usr/local/bin/start
 
 # Copy existing application directory permissions
 COPY --chown=www:www . /var/www
+
+# Generate APP_KEY if not set
+RUN php artisan key:generate --force || true
 
 # Change current user to www
 # USER www

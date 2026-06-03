@@ -422,12 +422,12 @@
 															@foreach($tb_jogos as $jogo)
 															<tr>
 																<td>
-																<img src="{{ asset('images/brasoes') }}/{{$jogo->selecao1->ds_icone}}" />
+																<img src="{{ asset('images/bandeiras_novas') }}/{{$jogo->selecao1->ds_icone}}" width="50" height="40" />
 																{{$jogo->selecao1->ds_nome}} 												
 																</td>
 																<td>X</td>
 																<td>			
-																<img src="{{ asset('images/brasoes') }}/{{$jogo->selecao2->ds_icone}}" />
+																<img src="{{ asset('images/bandeiras_novas') }}/{{$jogo->selecao2->ds_icone}}" width="50" height="40" />
 																{{$jogo->selecao2->ds_nome}}
 																</td>
 																<td>

@@ -93,7 +93,7 @@
 											<h2>1. OBJETIVO</h2>
 											<ul>
 												<li>
-													1.1 O Bolão Copa Brothes 2022 é uma iniciativa entre amigos e voltada para acompanhar os jogos da FIFA Copa do Mundo 2022 a ser realizada no Qatar de 20/11/2022 a 18/12/2022.
+													1.1 O Bolão Copa Brothes 2026 é uma iniciativa entre amigos e voltada para acompanhar os jogos da FIFA Copa do Mundo 2026 a ser realizada nos Estados Unidos, México e Canadá de 11/06/2026 a 19/07/2026.
 												</li>
 											</ul>
 											<h2>2. COMO PARTICIPAR</h2>
@@ -102,7 +102,7 @@
 													2.1 Poderão participar apenas pessoas que forem convidadas pelo CGBCB (Comitê Gestor Bolão Copa Brothers). Os convidados deverão informar seu e-mail para o CGBCB que procederá com a criação das credenciais de acesso ao site/sistema do bolão (em www.bolao18.club) onde o participante poderá registrar seus paliptes e acompanhar os resultados do bolão e ranking de classificação.
 												</li>
 												<li>
-													2.2 Cada participante deverá pagar uma "Joia Ingresso" no valor de R$35,00 (trinta e cinco reais) para confirmar sua participação no bolão.
+													2.2 Cada participante deverá pagar uma "Joia Ingresso" no valor de R$40,00 (quarenta reais) para confirmar sua participação no bolão.
 													<ul class="list-unstyled">
     													<li>
     														<i class="ace-icon fa fa-caret-right blue"></i>
@@ -110,12 +110,12 @@
     													</li>
     													<li>
     														<i class="ace-icon fa fa-caret-right blue"></i>
-        													b. O pagamento deverá ser realizado até uma semana antes do início da FIFA Copa do Mundo 2022 - 13 de Novembro de 2022 as 18:00h.
+        													b. O pagamento deverá ser realizado até uma semana antes do início da FIFA Copa do Mundo 2026 - 04 de Junho de 2026 as 18:00h.
         													<ul class="list-unstyled">
         													<li>
         														<i class="ace-icon fa fa-caret-right blue"></i>
         														<i class="ace-icon fa fa-caret-right blue"></i>
-        														§ Casos excepcionais de inscrição entre 13/11/2022 a 19/11/2022 serão analisados individualmente pela CABCB (Câmara Arbitral Bolão Copa Brothers).
+        														§ Casos excepcionais de inscrição entre 04/06/2026 a 11/06/2026 serão analisados individualmente pela CABCB (Câmara Arbitral Bolão Copa Brothers).
         													</li>
         													</ul>
         												</li>
@@ -125,14 +125,14 @@
 											<h2>3. DESISTÊNCIA</h2>
 											<ul>
 												<li>
-													3.1 O participante poderá desistir da participação no bolão a qualquer momento até o encerramento das inscrições no dia 13 de novembro de 2022 as 18:00h.
+													3.1 O participante poderá desistir da participação no bolão a qualquer momento até o encerramento das inscrições no dia 13 de novembro de 2026 as 18:00h.
 												</li>
 												<li>
 													3.2 A desistência deverá ser protocolada pelo participante junto ao CGBCB dentro do prazo definido no item 3.1.
 													<ul class="list-unstyled">
     													<li>
     														<i class="ace-icon fa fa-caret-right blue"></i>
-															a. Eventuais exceções com relação a desistência entre 13/11/2022 e 19/11/2022 serão analisadas individualmente pela CABCB, ficando a cargo da CABCB deferir ou indeferir o pedido da desistência.
+															a. Eventuais exceções com relação a desistência entre 04/06/2026 e 11/06/2026 serão analisadas individualmente pela CABCB, ficando a cargo da CABCB deferir ou indeferir o pedido da desistência.
 														</li>
 													</ul>
 												</li>
@@ -156,27 +156,31 @@
 													<ul class="list-unstyled">
     													<li>
     														<i class="ace-icon fa fa-caret-right blue"></i>
-															1) Primeira Rodada da Primeira Fase (16 Jogos dos Grupos "A" a "H")
+															1) Primeira Rodada da Primeira Fase (24 Jogos dos Grupos "A" a "L")
 														</li>
 														<li>
 															<i class="ace-icon fa fa-caret-right blue"></i>
-															2) Segunda Rodada da Primeira Fase (16 Jogos dos Grupos "A" a "H")
+															2) Segunda Rodada da Primeira Fase (24 Jogos dos Grupos "A" a "L")
 														</li>
 														<li>
 															<i class="ace-icon fa fa-caret-right blue"></i>
-															3) Terceira Rodada da Primeira Fase (16 Jogos dos Grupos "A" a "H")
+															3) Terceira Rodada da Primeira Fase (24 Jogos dos Grupos "A" a "L")
 														</li>
 														<li>
 															<i class="ace-icon fa fa-caret-right blue"></i>
-															4) Oitavas-de-final (8 jogos)
+															4) Fase de 32 (16 jogos)
 														</li>
 														<li>
 															<i class="ace-icon fa fa-caret-right blue"></i>
-															5) Quartas-de-final (4 jogos)
+															5) Oitavas-de-final (8 jogos)
 														</li>
 														<li>
 															<i class="ace-icon fa fa-caret-right blue"></i>
-															6) Semifinal, Disputa de Terceiro Lugar e Final (4 Jogos)
+															6) Quartas-de-final (4 jogos)
+														</li>
+														<li>
+															<i class="ace-icon fa fa-caret-right blue"></i>
+															7) Semifinal, Disputa de Terceiro Lugar e Final (4 Jogos)
 														</li>
 													</ul>
 												</li>
@@ -185,7 +189,7 @@
 													<ul class="list-unstyled">
     													<li>
     														<i class="ace-icon fa fa-caret-right blue"></i>
-															1) Ranking Geral (Todos os 64 Jogos da Copa)
+															1) Ranking Geral (Todos os 104 Jogos da Copa)
 														</li>
 													</ul>
 												</li>
@@ -194,10 +198,15 @@
 											<ul>
 												<li>
 													5.1 Cada participante poderá registrar uma única aposta por jogo da Copa do Mundo.
-													a. O participante poderá alterar o palpite registrado a qualquer momento até a data/hora limite para registro dos palpites.
+													<ul class="list-unstyled">
+    													<li>
+    														<i class="ace-icon fa fa-caret-right blue"></i>
+															a. O participante poderá alterar o palpite registrado a qualquer momento até a data/hora limite para registro dos palpites.
+														</li>
+													</ul>
 												</li>
 												<li>
-													5.2 Os palpites compreenderão os jogos das primeira fase (rodadas um, dois e três), oitavas-de-final, quartas-de-final, semifinal, disputa de terceiro lugar e final.
+													5.2 Os palpites compreenderão os jogos das primeira fase (rodadas um, dois e três), fase de 32, oitavas-de-final, quartas-de-final, semifinal, disputa de terceiro lugar e final.
 												</li>
 												<li>
 													5.3 Para cada jogo o participante deverá informar o placar da partida.
@@ -365,23 +374,23 @@
                                             	<ul class="list-unstyled">
     												<li>
     													<i class="ace-icon fa fa-caret-right blue"></i>
-                                            			a. Ranking Geral	40% do Montante Geral<br/>
+                                            			a. Ranking Geral 35% do Montante Geral<br/>
                                             			* dentro desse montante o valor será rateado da seguinte maneira:
                                             			<ul class="list-unstyled">
         													<li>
         														<i class="ace-icon fa fa-caret-right blue"></i>
         														<i class="ace-icon fa fa-caret-right blue"></i>
-                                                				1) Primeiro Lugar 50% do Prêmio (20% do Montante Geral)
+                                                				1) Primeiro Lugar 50% do Prêmio (17,5% do Montante Geral)
                                                 			</li>
                                                 			<li>
                                                 				<i class="ace-icon fa fa-caret-right blue"></i>
         														<i class="ace-icon fa fa-caret-right blue"></i>
-                                            					2) Segunda Lugar  30% do Prêmio (12% do Montante Geral)
+                                            					2) Segunda Lugar  30% do Prêmio (10,5% do Montante Geral)
                                             				</li>
                                             				<li>
                                             					<i class="ace-icon fa fa-caret-right blue"></i>
         														<i class="ace-icon fa fa-caret-right blue"></i>
-                                            					3) Terceiro Lugar 20% do Prêmio (8% do Montante Geral)
+                                            					3) Terceiro Lugar 20% do Prêmio (7% do Montante Geral)
                                             				</li>
                                             			</ul>
                                             		</li>
@@ -400,19 +409,24 @@
                                             			d. Terceira Rodada da Primeira Fase 13% do Montante Geral<br/>
                                             			Esse prêmio não será rateado, será entregue integralmente ao primeiro lugar da fase.
                                             		</li>
+													<li>
+    													<i class="ace-icon fa fa-caret-right blue"></i>
+                                            			e. Fase de 32 9% do Montante Geral<br/>
+                                            			Esse prêmio não será rateado, será entregue integralmente ao primeiro lugar da fase.
+                                            		</li>
                                             		<li>
     													<i class="ace-icon fa fa-caret-right blue"></i>
-                                            			e. Oitavas-de-Final 9% do Montante Geral<br/>
+                                            			e. Oitavas-de-Final 7% do Montante Geral<br/>
                                             			Esse prêmio não será rateado, será entregue integralmente ao primeiro lugar da fase.
                                             		</li>
                                             		<li>
                                             			<i class="ace-icon fa fa-caret-right blue"></i>
-                                            			f. Quartas-de-Final 6% do Montante Geral<br/>
+                                            			f. Quartas-de-Final 5% do Montante Geral<br/>
                                             			Esse prêmio não será rateado, será entregue integralmente ao primeiro lugar da fase.
                                             		</li>
                                             		<li>
                                             			<i class="ace-icon fa fa-caret-right blue"></i>
-                                            			g. Semifinal, Disputa de 3o. Lugar e Final 6% do Montante Geral<br/>
+                                            			g. Semifinal, Disputa de 3o. Lugar e Final 5% do Montante Geral<br/>
                                             			Esse prêmio não será rateado, será entregue integralmente ao primeiro lugar da fase.
                                             		</li>
                                             	</li>
@@ -423,50 +437,50 @@
                                             	9.1 Para cálculo das probabilidades de vitória, empate e derrota as 32 seleções participantes da FIFA Copa do Mundo 2022 foram divididas em 10 Grupos de Acorod com suas probabilidades de vitórina na competição.
                                             	</li>
                                             	<li>
-                                            	9.2 Para fins de 'rankeamento' foi utilizado o ranking publicado no site oddschecker para a 'bolsa' de cada seleção.
+                                            	9.2 Para fins de 'rankeamento' foi utilizado o ranking publicado no site oddschecker para a 'bolsa' de cada seleção (https://www.oddschecker.com/football/world-cup/winner).
                                             	</li>
                                             	<li>
                                             	9.3 Os grupos e suas seleções foram estabelecidos da seguinte maneira:
                                             	<ul class="list-unstyled">
     													<li>
     														<i class="ace-icon fa fa-caret-right blue"></i>
-                                            				Grupo 1 : Brasil e França
+                                            				Grupo 1 : França e Espanha
                                             			</li>
                                             			<li>
     														<i class="ace-icon fa fa-caret-right blue"></i>
-                                            				Grupo 2 : Inglaterra e Argentina
+                                            				Grupo 2 : Inglaterra, Brasil e Argentina
                                             			</li>
                                             			<li>
     														<i class="ace-icon fa fa-caret-right blue"></i>
-                                            				Grupo 3 : Espanha, Alemanha e Holanda
+                                            				Grupo 3 : Portugal, Alemanha e Holanda
                                             			</li>
                                             			<li>
     														<i class="ace-icon fa fa-caret-right blue"></i>
-                                            				Grupo 4 : Portugal e Bélgica
+                                            				Grupo 4 : Noruega, Bélgica, Colombia e Japão
                                             			</li>
                                             			<li>
     														<i class="ace-icon fa fa-caret-right blue"></i>
-                                            				Grupo 5 : Dinamarca, Croácia e Uruguai
+                                            				Grupo 5 : Marrocos, EUA, Uruguai, México, Suiça, Equador, Senegal e Croácia
                                             			</li>
                                             			<li>
     														<i class="ace-icon fa fa-caret-right blue"></i>
-                                            				Grupo 6 : Senegal, Suiça, Sérvia e México
+                                            				Grupo 6 : Turquia, Áustria, Suécia e Escócia
                                             			</li>
                                             			<li>
     														<i class="ace-icon fa fa-caret-right blue"></i>
-                                            				Grupo 7 : País de Gales, EUA e Polonia
+                                            				Grupo 7 : Canadá, Paraguai, República Checa, Costa do Marfim, Algéria e Egito
                                             			</li>
                                             			<li>
     														<i class="ace-icon fa fa-caret-right blue"></i>
-                                            				Grupo 8 : Equador, Camarões, Gana e Marrocos
+                                            				Grupo 8 : Coréia do Sul, Austrália, Gana, Tunísia, Bósnia e Herzegovina e Irã
                                             			</li>
                                             			<li>
     														<i class="ace-icon fa fa-caret-right blue"></i>
-                                            				Grupo 9 : Japão, Coréia do Sul, Canadá e Austrália
+                                            				Grupo 9 : Catar, Arábia Saudita, Congo, África do Sul, Nova Zelândia e Panamá
                                             			</li>
                                             			<li>
     														<i class="ace-icon fa fa-caret-right blue"></i>
-                                            				Grupo 10 : Qatar, Tunísia, Arábia Saudita, Irã e Costa Rica
+                                            				Grupo 10 : Cabo Verde, Iraque, Uzbesquistão, Jordânia, Curaçao e Haiti
                                             			</li>
                                             		</ul>
                                             	</li>

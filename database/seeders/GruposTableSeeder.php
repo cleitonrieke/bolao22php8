@@ -47,6 +47,22 @@ class GruposTableSeeder extends Seeder
         ]);        
         DB::table('grupos')->insert([
             'id' => 9,
+            'ds_grupo' => 'Grupo I'            
+        ]);        
+        DB::table('grupos')->insert([
+            'id' => 10,
+            'ds_grupo' => 'Grupo J'            
+        ]);        
+        DB::table('grupos')->insert([
+            'id' => 11,
+            'ds_grupo' => 'Grupo K'            
+        ]);        
+        DB::table('grupos')->insert([
+            'id' => 12,
+            'ds_grupo' => 'Grupo L'            
+        ]);        
+        DB::table('grupos')->insert([
+            'id' => 13,
             'ds_grupo' => 'Sem Grupo'            
         ]);        
     }

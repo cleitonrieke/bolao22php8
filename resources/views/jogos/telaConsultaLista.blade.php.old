@@ -130,7 +130,7 @@
 														         $jogo->cd_ranking == \App\TipoRanking::FASE_1_RODADA_2 ||
 														         $jogo->cd_ranking == \App\TipoRanking::FASE_1_RODADA_3) {{ $jogo->selecao1->grupo->ds_grupo }} @endif</td>
 														<td>
-														<img src="{{ asset('images/bandeiras') }}/{{$jogo->selecao1->ds_icone}}" />
+														<img src="{{ asset('images/bandeiras_novas') }}/{{$jogo->selecao1->ds_icone}}" />
 														{{ $jogo->selecao1->ds_nome }}
 														@if ($jogo->nr_pontos_handcap1 > $jogo->nr_pontos_handcap2)
 														<span class="label label-sm label-inverse">
@@ -147,7 +147,7 @@
 														</td>
 														<td>@if ($jogo->cd_status != \App\StatusJogo::JOGO_PROGRAMADO) {{ $jogo->qt_gols_selecao2 }} @endif</td>
 														<td>
-														<img src="{{ asset('images/bandeiras') }}/{{$jogo->selecao2->ds_icone}}" />
+														<img src="{{ asset('images/bandeiras_novas') }}/{{$jogo->selecao2->ds_icone}}" />
 														{{ $jogo->selecao2->ds_nome }}
 														@if ($jogo->nr_pontos_handcap2 > $jogo->nr_pontos_handcap1)
 														<span class="label label-sm label-inverse">

@@ -2,22 +2,24 @@ version: '3'
 services:
 
   #PHP Service
-  bolao22:
+  bolao26:
     build:
       context: .
       dockerfile: Dockerfile
-    image: macakosoftware/bolao22php8
-    container_name: bolao22_php8
+    image: macakosoftware/bolao26php8
+    container_name: bolao26_php8
+    hostname: bolao26
     restart: unless-stopped
     tty: true
     environment:
-      SERVICE_NAME: bolao22
+      SERVICE_NAME: bolao26
       SERVICE_TAGS: dev
     working_dir: /var/www
     networks:
       - app-network
     volumes:
        - ./:/var/www
+       - vendor_data:/var/www/vendor
        - ./php/local.ini:/usr/local/etc/php/conf.d/local.ini
     depends_on:          
       - "db"
@@ -35,6 +37,7 @@ services:
       - app-network
     volumes:
       - ./:/var/www
+      - vendor_data:/var/www/vendor
       - ./nginx/conf.d/:/etc/nginx/conf.d/
 
   #MySQL Service
@@ -46,22 +49,24 @@ services:
     ports:
       - "3306:3306"
     environment:
-      MYSQL_DATABASE: bolao22
+      MYSQL_DATABASE: bolao26
       MYSQL_ROOT_PASSWORD: teste123
-      MYSQL_USER: bolao22
-      MYSQL_PASSWORD: bolao22pass 
+      MYSQL_USER: bolao26
+      MYSQL_PASSWORD: bolao26pass 
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql
     command: --init-file /data/application/init.sql
     volumes:
-      - dbdata_bolao22:/var/lib/mysql
+      - dbdata_bolao26:/var/lib/mysql
       - ./mysql/init.sql:/data/application/init.sql
     networks:
       - app-network
         
 #Volumes
 volumes:
-  dbdata_bolao22:
+  dbdata_bolao26:
+    driver: local
+  vendor_data:
     driver: local
 
 #Docker Networks

@@ -113,7 +113,7 @@
 														<td>
 														{{$selecao->ds_icone}}
 														@if ($selecao->ds_icone != '')
-														<img src="{{ asset('images/brasoes') }}/{{$selecao->ds_icone}}"
+														<img src="{{ asset('images/bandeiras_novas') }}/{{$selecao->ds_icone}}" width="50" height="40" />
 														@endif
 														</td>														
 														<td>
