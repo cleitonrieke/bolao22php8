@@ -1,8 +1,14 @@
 #!/bin/sh
 set -e
 
-printf "\n\n Startando PHP-FPM \n\n"
-php-fpm --daemonize
+printf "\n\n Ajustando permissões das pastas do Laravel... \n\n"
+# Corrige a propriedade do volume compartilhado na inicialização
+chown -R www:www /var/www/storage /var/www/bootstrap/cache
+chmod -R 775 /var/www/storage /var/www/bootstrap/cache
+
+printf "\n\n Startando PHP-FPM... \n\n"
+# O PHP-FPM lerá o www.conf modificado e rodará os workers como 'www'
+php-fpm &
 
 while [ true ]
 do

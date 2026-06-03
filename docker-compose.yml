@@ -39,6 +39,8 @@ services:
       - ./:/var/www
       - vendor_data:/var/www/vendor
       - ./nginx/conf.d/:/etc/nginx/conf.d/
+      # MAPEAMENTO DOS CERTIFICADOS SSL:
+      - ./certs:/etc/nginx/ssl/bolaocopabrothers26.online/
 
   #MySQL Service
   db:
