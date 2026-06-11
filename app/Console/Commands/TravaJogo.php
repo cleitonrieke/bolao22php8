@@ -32,7 +32,7 @@ class TravaJogo extends Command
      */
     public function __construct()
     {
-        parent::__construct();
+        parent::__construct();  
     }
 
     /**
@@ -62,6 +62,7 @@ class TravaJogo extends Command
             $minutes += $dif_jogo->h * 60;
             $minutes += $dif_jogo->i;
             
+            echo 'minutes:'.$minutes .'/limite:'.$limite.'/dt_hr_jogo:'.$dt_hr_jogo.'/corrente:'.$corrente.PHP_EOL;
             if (($minutes <= $limite) || ($dt_hr_jogo < $corrente)){
                 
                 echo 'Travando Jogo '.$jogo->selecao1->ds_nome.' X '.$jogo->selecao2->ds_nome.' de '.$jogo->dt_jogo.' as '.$jogo->hr_jogo.' '.PHP_EOL;
