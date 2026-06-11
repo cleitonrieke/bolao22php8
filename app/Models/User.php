@@ -54,7 +54,7 @@ class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
 
-	public const VALOR_JOIA_PREMIO = 35;
+	public const VALOR_JOIA_PREMIO = 40;
     
     public const PONTOS_PAGAMENTO = 100;
     public const PONTOS_APOSTAS_FEITAS = 100;

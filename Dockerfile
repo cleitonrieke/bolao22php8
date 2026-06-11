@@ -50,13 +50,17 @@ RUN composer install --no-interaction --optimize-autoloader
 
 COPY ./start.sh /usr/local/bin/start
 
-RUN dos2unix /usr/local/bin/start && chmod u+x /usr/local/bin/start
+RUN dos2unix /usr/local/bin/start && chmod 755 /usr/local/bin/start
 
 # Copy existing application directory permissions
 COPY --chown=www:www . /var/www
 
 # Generate APP_KEY if not set
 RUN php artisan key:generate --force || true
+
+# Garante que o PHP-FPM use o usuário 'www' internamente
+RUN sed -i 's/user = www-data/user = www/g' /usr/local/etc/php-fpm.d/www.conf && \
+    sed -i 's/group = www-data/group = www/g' /usr/local/etc/php-fpm.d/www.conf
 
 # Change current user to www
 # USER www
